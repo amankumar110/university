@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university - student's homepage</title>
+    <link rel="stylesheet" href="/css/notice-and-login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="top-container">
+            <a href="#" class="top-brand"><img src="../imgs/1.png" alt="university logo"></a>
+            <h2 class="top-name">SZABIST</h2>
+        </div>
+        <nav>
+            <ul class="navbar-nav">
+                <li class="list-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="list-item"><a class="nav-link" href="../html/signup.html">SignUp Page</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar">
+            <form class="login">
+                <div class="login-header">
+                    <span>Login</span>
+                </div>
+                <div class="login-body">
+                    <p class="info">Students and Staff can now login to their own personalized home page.</p>
+                    <div>
+                        <label for="#email" class="label">Email</label>
+                        <input type="email" name="email" placeholder="enter Email" id="email">
+                    </div>
+                    <div>
+                        <label for="#password" class="label">Password</label>
+                        <input type="password" name="password" placeholder="Password" id="password">
+                    </div>
+                    <div>
+                        <label for="#campus" class="label">Campus</label>
+                        <div class="selectDiv">
+                            <select name="campus" id="">
+                                <option value="campus">campus</option>
+                                <option value="karachi">Karachi</option>
+                                <option value="larkana">Larkana</option>
+                                <option value="islamabad">Islamabad</option>
+                            </select>
+                            <div class="marker">
+                                <span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button type="submit"  class="primary-btn">Login</button>
+                    <a href="../html/updatepassword.html" class="primary-btn">Forgot password</a>
+                    <a href="../html/signup.html" class="primary-btn signup-link">SignUp Page</a>
+                </div>
+            </form>
+        </div>
+        <div class="notice">
+            <div class="board">
+                <div class="board-top">
+                    <a class="primary-btn" href="">Notice Board</a>
+                    <a class="primary-btn disabled" href="">HEC Resources</a>
+                    <a class="primary-btn disabled" href="">Anti Plagiarism</a>
+                </div>
+                <div class="board-body">
+                    <div class="card green">
+                        <span class="card-title">Generate Online Fees Challan</span>
+                        <span><b>for creating payment chllan <a href="#">Click here</a>. for reprinting <a
+                                    href="#">Click here</a></b></span>
+                    </div>
+                    <div class="card purple">
+                        <span class="card-title">Online Registration For Spring</span>
+                        <span><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, rem!. Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Nobis error aut cum dignissimos ut laudantium
+                                consequatur voluptas voluptatibus perferendis accusantium. <a href="#">Click
+                                    here</a></b></span>
+                    </div>
+                    <div class="card yellow">
+                        <span class="card-title">SZABIST Need-Based scholarship 22-23</span>
+                        <span><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iste mollitia non?
+                                Debitis labore, reprehenderit, maxime temporibus, ratione placeat expedita aperiam iusto
+                                atque ab aspernatur omnis ducimus nam assumenda facilis. <a href="#">Click
+                                    Here</a></b></span>
+
+                    </div>
+                </div>
+    </main>
+    <footer>
+        <div class="logos">
+            <img class="logo1" src="../imgs/2.png" alt="">
+            <img class="logo2" src="../imgs/3.png" alt="">
+        </div>
+        <div class="links">
+            <a class="footer-link" href="../index.html">Home |</a>
+            <a class="footer-link" href="">About |</a>
+            <a class="footer-link" href="">Feedback |</a>
+            <a class="footer-link" href="">Contact us |</a>
+        </div>
+        <div class="copyright">
+            Copyright © 2023 ZABSolutions All Rights Reserved
+        </div>
+    </footer>
+    <script src="/javascript/login.js"></script>
+</body>
+
+</html>

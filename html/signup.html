@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="top-container">
+            <a class="top-brand" href="#"><img src="../imgs/3.png" alt=""></a>
+            <h2 class="top-name">~ SHAHEED ZULFIKAR ALI BHUTTO INSTITUTE OF SCIENCE AND TECHNOLOGY ~</h2>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <h2 class="form-heading">SignUp Page</h2>
+            <div class="formgroup">
+                <label for="#name">Enter Name</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+            </div>
+            <div class="formgroup">
+                <label for="#age">Enter Your Age</label>
+                <input type="number" minlength="1" maxlength="2" id="age" name="age" placeholder="Age">
+            </div>
+
+            <div class="formgroup">
+                <label for="#email">Enter Email Address</label>
+                <input type="email" id="email" name="email" placeholder="lorem123@Gmail.com">
+            </div>
+            <div class="formgroup">
+                <label for="#password">Create Password</label>
+                <div class="passwordDiv">
+                    <input type="password" minlength="8" id="password" name="password" placeholder="Password">
+                    <button type="button" class="password-show"><i class="fa-solid fa-eye"></i></button>
+                </div>
+            </div>
+            <div class="formgroup">
+                <button class="submit" type="submit">SignUp</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="logos">
+            <img class="logo1" src="../imgs/2.png" alt="">
+            <img class="logo2" src="../imgs/3.png" alt="">
+        </div>
+        <div class="links">
+            <a class="footer-link" href="../index.html">Home |</a>
+            <a class="footer-link" href="">About |</a>
+            <a class="footer-link" href="">Feedback |</a>
+            <a class="footer-link" href="">Contact us |</a>
+        </div>
+        <div class="copyright">
+            Copyright © 2023 ZABSolutions All Rights Reserved
+        </div>
+    </footer>
+    <script src="../javascript/signup.js"></script>
+</body>
+
+</html>
