@@ -48,14 +48,17 @@ form.addEventListener("submit", (e) => {
       }
       // Password input validation
       if (passVal === "") {
-        alert("Create a new Password");
+        alert("Create a Password");
       } else {
         personObj.password = passVal;
       }
-      if (Object.keys(personObj) !== []) {
+
+      if (Object.keys(personObj).length === 4) {
         localStorage.setItem("personInfo", JSON.stringify(personObj));
         alert("you have signed up");
         history.go(-1)
+      } else{
+        alert("Signup failed");
       }
     }
   }
