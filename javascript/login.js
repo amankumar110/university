@@ -1,4 +1,5 @@
 const form = document.querySelector("form.login");
+const name = "aman";
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const email = form.email.value.trim();
