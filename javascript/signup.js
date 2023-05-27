@@ -49,9 +49,6 @@ form.addEventListener("submit", (e) => {
       // Password input validation
       if (passVal === "") {
         alert("Create a new Password");
-      } else if (passVal === "12345678") {
-        alert("weak password");
-        password.value = "";
       } else {
         personObj.password = passVal;
       }
