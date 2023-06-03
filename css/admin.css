@@ -25,6 +25,7 @@ html {
   font-size: 2.5rem;
   color: #0c54a3;
 }
+
 .nav {
   list-style-type: none;
   display: flex;
@@ -38,7 +39,7 @@ html {
   border-radius: 50%;
   height: 50px;
 }
-.secondary-btn {
+.secondary-link {
   padding: 6px 12px;
   background-color: #e9e6e6;
   color: black;
@@ -129,7 +130,8 @@ main .sidebar {
   border-radius: 15px;
 }
 .profile-pic {
-  max-width: 70%;
+  width: 60%;
+  min-height: 130px;
   border-radius: 50%;
 }
 .profile-pic-text {
@@ -140,7 +142,19 @@ main .sidebar {
   margin-top: 30px;
   cursor: pointer;
 }
-
+a.secondary-btn{
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  border: 1px solid #4d4d4d;
+  padding: 6px 12px;
+  background-color: #e9e6e6;
+  color: black;
+}
 /* infobar */
 main .infobar {
   flex: 75%;
